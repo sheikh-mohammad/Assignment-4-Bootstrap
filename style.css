@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(assests/fonts/Poppins-Regular.ttf);
+}
+
+:root {
+    --primary: #67bc00;
+    --font: "Poppins";
+}
+
+body {
+    font-family: var(--font) !important;
+}
+
+::selection {
+    color: white !important;
+    background-color: #6EB814;
+}
+
+.upper-bar .contact span {
+    background-color: #f9f9ff;
+}
+
+nav {
+    background-image: -webkit-linear-gradient(0deg, #ade600 0%, #62b900 100%);
+}
+
+.social-icons a {
+    transition: all 0.3s ease 0s;
+}
+
+.upper-bar {
+    height: 15vh;
+}
+
+.social-icons a:hover {
+    color: white !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
+
+.dropdown-item:hover {
+    color: var(--primary);
+    background-color: transparent;
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: url(assests/images/hero/hero.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 9, 30, 0.85);
+}
+
+.hero-section span {
+    letter-spacing: 2px;
+}
+
+.hero-section button {
+    background-color: #67bc00;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.hero-section button:hover{
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 1005px) {
+    .navbar{
+        display: none;
+    }
+    .upper-bar{
+        height: 10vh;
+    }
+}
