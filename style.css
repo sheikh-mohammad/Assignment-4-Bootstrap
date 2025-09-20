@@ -83,12 +83,20 @@ nav {
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
-.schedule-section span{
+.schedule-section span {
     background-color: #f9f9ff;
     cursor: pointer;
 }
 
-.schedule-section span i{
+.schedule-section span i {
+    color: var(--primary);
+}
+
+.ss-body .card .card-title {
+    transition: all 0.3s ease 0s;
+}
+
+.ss-body .card .card-title:hover {
     color: var(--primary);
 }
 
