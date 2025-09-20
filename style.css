@@ -74,15 +74,30 @@ nav {
     border: 1px solid transparent;
 }
 
-.hero-section button:hover{
+.hero-section button:hover {
     border: 1px solid white;
 }
 
+.schedule-section {
+    bottom: 120px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.schedule-section span{
+    background-color: #f9f9ff;
+    cursor: pointer;
+}
+
+.schedule-section span i{
+    color: var(--primary);
+}
+
 @media screen and (max-width: 1005px) {
-    .navbar{
+    .navbar {
         display: none;
     }
-    .upper-bar{
+
+    .upper-bar {
         height: 10vh;
     }
 }
