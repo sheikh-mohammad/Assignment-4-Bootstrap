@@ -112,7 +112,7 @@ nav {
     color: var(--primary);
 }
 
-.testinomials-section{
+.testinomials-section {
     padding: 120px 0px;
 }
 
@@ -147,7 +147,7 @@ nav {
     cursor: pointer;
 }
 
-.ts-body .card:hover h5{
+.ts-body .card:hover h5 {
     color: var(--primary);
 }
 
@@ -175,16 +175,37 @@ nav {
     transition: opacity 0.5s;
 }
 
-.consultant:hover::after{
+.consultant:hover::after {
     opacity: 0.85 !important;
 }
 
-.consultant:hover h5, .consultant:hover p{
+.consultant:hover h5,
+.consultant:hover p {
     opacity: 1 !important;
 }
 
-.consultant *{
+.consultant * {
     transition: opacity 0.5s;
+}
+
+.features-section {
+    padding: 120px 0px;
+}
+
+.feature-icon span {
+    color: var(--primary);
+}
+
+.feature-cont h5 {
+    transition: all 0.3s ease 0s;
+}
+
+.feature-cont h5:hover{
+    color: var(--primary);
+}
+
+.appoinment-section{
+    background-color: #04091E;
 }
 
 @media screen and (max-width: 1005px) {
