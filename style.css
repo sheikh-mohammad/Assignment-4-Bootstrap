@@ -112,6 +112,10 @@ nav {
     color: var(--primary);
 }
 
+.testinomials-section{
+    padding: 120px 0px;
+}
+
 .carousel::before,
 .carousel::after,
 .carousel-item::before,
@@ -139,12 +143,48 @@ nav {
     transition: all 0.3s ease 0s;
 }
 
-.ts-body .card{
+.ts-body .card {
     cursor: pointer;
 }
 
-.ts-body h5:hover {
+.ts-body .card:hover h5{
     color: var(--primary);
+}
+
+.consultants-section {
+    padding: 120px 0px;
+    background-color: #F9F9FF;
+}
+
+.consultant {
+    height: 280px;
+    width: 265px;
+    position: relative;
+    cursor: pointer;
+}
+
+.consultant::after {
+    background-image: -webkit-linear-gradient(0deg, #ade600 0%, #62b900 100%);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.consultant:hover::after{
+    opacity: 0.85 !important;
+}
+
+.consultant:hover h5, .consultant:hover p{
+    opacity: 1 !important;
+}
+
+.consultant *{
+    transition: opacity 0.5s;
 }
 
 @media screen and (max-width: 1005px) {
