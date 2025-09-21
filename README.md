@@ -4,7 +4,7 @@ A modern, responsive dental clinic website built with Bootstrap 5, featuring a c
 
 ## 🌐 Live Demo
 
-**Website:** [https://sheikh-mohammad.github.io/Assignment-5-Bootstrap/](https://sheikh-mohammad.github.io/Assignment-5-Bootstrap/)
+**Website:** [https://sheikh-mohammad.github.io/Assignment-4-Bootstrap/](https://sheikh-mohammad.github.io/Assignment-4-Bootstrap/)
 
 ## 📋 Project Overview
 
@@ -143,7 +143,7 @@ The website is fully responsive and optimized for:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sheikh-mohammad/Assignment-5-Bootstrap.git
+   git clone https://github.com/sheikh-mohammad/Assignment-4-Bootstrap.git
    ```
 
 2. Navigate to the project directory:
@@ -175,15 +175,8 @@ Edit the CSS variables in `style.css`:
 
 ## 📞 Contact Information
 
-- **Phone:** +953 012 3654 896
-- **Email:** support@colorlib.com
-- **Address:** 56/8, bir uttam qazi nuruzzaman road, west panthapath, kalabagan, Dhanmondi, Dhaka - 1205
+- **Email:** sheikhmohammadahmed07@gmail.com
 
-## 🕒 Opening Hours
-
-- **Monday - Friday:** 10:00am to 05:00pm
-- **Saturday:** 12:00am to 03:00pm
-- **Sunday:** Closed
 
 ## 📄 License
 
