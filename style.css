@@ -100,6 +100,53 @@ nav {
     color: var(--primary);
 }
 
+.services-section {
+    padding-bottom: 120px;
+}
+
+.banner-section {
+    background-color: #04091E;
+}
+
+.banner-card span {
+    color: var(--primary);
+}
+
+.carousel::before,
+.carousel::after,
+.carousel-item::before,
+.carousel-item::after {
+    content: none !important;
+    background: none !important;
+}
+
+.carousel-indicators {
+    position: static;
+    margin: 0 !important;
+}
+
+.carousel-indicators button {
+    background-color: #CCCCCC !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.carousel-indicators button.active {
+    background-color: var(--primary) !important;
+}
+
+.ts-body h5 {
+    transition: all 0.3s ease 0s;
+}
+
+.ts-body .card{
+    cursor: pointer;
+}
+
+.ts-body h5:hover {
+    color: var(--primary);
+}
+
 @media screen and (max-width: 1005px) {
     .navbar {
         display: none;
