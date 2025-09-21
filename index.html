@@ -16,14 +16,50 @@
 </head>
 
 <body>
-    <div class="top-bar sticky-top bg-white">
+    <div class="top-bar fixed-top bg-white">
         <div class="upper-bar position-relative pt-3">
             <div class="top-upper-bar position-relative d-flex justify-content-around align-items-center bg-white py-3">
                 <img src="assests/images/logo/logo.png" alt="Dentist Logo">
                 <div class="contact">
-                    <span class="small px-3 py-2 me-2">+953 012 3654 896</span>
-                    <span class="small px-3 py-2">support@colorlib.com</span>
-                    <i class="fa-solid fa-bars d-none"></i>
+                    <span class="small px-3 py-2 me-2"><span class="d-md-inline d-none">+953 012 3654 896</span> <i
+                            class="fa-solid fa-phone d-md-none d-inline"></i></span>
+                    <span class="small px-3 py-2"><span class="d-md-inline d-none">support@colorlib.com</span> <i
+                            class="fa-regular fa-envelope d-md-none d-inline"></i></span>
+                    <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                        aria-controls="offcanvasExample">
+                        <i class="fa-solid fa-bars d-md-none d-inline"></i>
+                    </a>
+
+                    <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-body d-flex flex-column justify-content-start align-items-start gap-3">
+                            <a href="#" class="text-uppercase text-white text-decoration-none small fw-bold">Home</a>
+                            <a href="#" class="text-uppercase text-white text-decoration-none small">About</a>
+                            <a href="#"
+                                class="text-uppercase text-white text-decoration-none small fw-bold">Services</a>
+                            <a href="#" class="text-uppercase text-white text-decoration-none small fw-bold">Opening
+                                Hours</a>
+                            <a class="nav-link text-white fw-bold text-uppercase small d-flex justify-content-between align-content-center w-100"
+                                href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog <i class="fa-solid fa-angle-down small"></i>
+                            </a>
+                            <ul class="dropdown-menu bg-transparent text-white border-0 rounded-0 flex-column">
+                                <li class="text-white fw-bold"><a
+                                        class="dropdown-item fw-bold text-white small text-capitalize" href="#">Blog
+                                        Home</a></li>
+                                <li class="text-white fw-bold"><a
+                                        class="dropdown-item fw-bold text-white small text-capitalize" href="#">Blog
+                                        Single</a></li>
+                                <li class="text-white fw-bold"><a
+                                        class="dropdown-item fw-bold text-white small text-capitalize" href="#">Level
+                                        2</a></li>
+                            </ul>
+                            <a href="#" class="text-uppercase text-white text-decoration-none small fw-bold">Pricing</a>
+                            <a href="#"
+                                class="text-uppercase text-white text-decoration-none small fw-bold">Elements</a>
+                            <a href="#" class="text-uppercase text-white text-decoration-none small fw-bold">Contact</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <nav class="navbar z-1 navbar-expand container position-absolute start-50 translate-middle-x">
@@ -543,7 +579,7 @@
     </div>
 
     <footer class="d-flex flex-column gap-5">
-        <div class="upper-footer row d-flex flex-column gap-4">
+        <div class="upper-footer container px-5 row d-flex flex-md-row flex-column gap-md-0 gap-4">
             <div class="col-lg-2 col-12 d-flex flex-column gap-2 justify-content-start align-items-start">
                 <h5 class="text-white fw-bold">Top Products</h5>
                 <a href="#" class="text-white small text-decoration-none">Managed Website</a>
@@ -561,14 +597,22 @@
             <div class="col-lg-6 col-12">
                 <h5 class="text-white fw-bold">Newsletter</h5>
                 <p class="small text-white m-0">You can trust us. we only send promo offers, not a single spam.</p>
-                <input type="email" name="Email address" id="Email address" placeholder="Your Email Address" class="rounded-pill mt-3 px-3 py-2 border-0 me-3">
+                <input type="email" name="Email address" id="Email address" placeholder="Your Email Address"
+                    class="rounded-pill mt-3 px-3 py-2 border-0 me-3">
                 <button
-                class="text rounded-pill z-1 mt-3 text-white rounded-0 px-4 py-2 small fw-medium align-self-end small fw-semibold">Subscribe <i class="fa-solid fa-arrow-right-long position-relative"></i></button>
+                    class="text rounded-pill z-1 mt-3 text-white rounded-0 px-4 py-2 small fw-medium align-self-end small fw-semibold">Subscribe
+                    <i class="fa-solid fa-arrow-right-long position-relative"></i></button>
             </div>
         </div>
-        <div class="lower-footer d-flex justify-content-between">
-            <span class="text-white">Copyright &copy;2025 All rights reserved | This template is made with <i
-                    class="fa-regular fa-heart"></i> by <a href="#" class="text-decoration-none">Colorlib</a></span>
+        <div class="lower-footer container align-items-center d-flex justify-content-md-between justify-content-center flex-wrap">
+            <div class="text-white text-center">Copyright &copy;2025 All rights reserved | This template is made with <i
+                    class="fa-regular fa-heart"></i> by <a href="#" class="text-decoration-none">Colorlib</a></div>
+            <div class="social-icons d-flex gap-5 mt-4">
+                <a href="#" class="text-white-50 small"><i class="fa-brands fa-facebook-f text-white"></i></a>
+                <a href="#" class="text-white-50 small"><i class="fa-brands fa-twitter text-white"></i></a>
+                <a href="#" class="text-white-50 small"><i class="fa-brands fa-dribbble text-white"></i></a>
+                <a href="#" class="text-white-50 small"><i class="fa-brands fa-behance text-white"></i></a>
+            </div>
         </div>
     </footer>
 

@@ -3,6 +3,10 @@
     src: url(assests/fonts/Poppins-Regular.ttf);
 }
 
+html, body{
+    overflow-x: hidden;
+}
+
 :root {
     --primary: #67bc00;
     --font: "Poppins";
@@ -44,6 +48,15 @@ nav {
 .dropdown-item:hover {
     color: var(--primary);
     background-color: transparent;
+}
+
+.offcanvas{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.offcanvas .dropdown-menu.show + a {
+  margin-top: 6rem; /* push the next item down */
 }
 
 .hero-section {
@@ -282,7 +295,7 @@ nav {
 
 footer {
     background-color: #04091E;
-    padding: 120px;
+    padding: 120px 0px;
 }
 
 .upper-footer h4 {
