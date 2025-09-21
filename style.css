@@ -200,12 +200,56 @@ nav {
     transition: all 0.3s ease 0s;
 }
 
-.feature-cont h5:hover{
+.feature-cont h5:hover {
     color: var(--primary);
 }
 
-.appoinment-section{
+.appoinment-section {
     background-color: #04091E;
+}
+
+.as-img {
+    background-image: url(assests/images/appointment/image.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.as-cont {
+    padding: 120px 0px;
+}
+
+.as-cont input::placeholder,
+.as-cont textarea::placeholder {
+    font-size: 13px;
+    color: #505362;
+}
+
+.as-cont input,
+.as-cont textarea {
+    border-color: #505362 !important;
+}
+
+.as-cont textarea {
+    height: 150px;
+    font-size: 13px;
+    color: #ccc;
+}
+
+.as-cont input {
+    color: #ccc !important;
+    font-size: 13px;
+}
+
+.as-cont button {
+    background-color: #67bc00;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.as-cont button:hover {
+    border-color: #67bc00;
+    color: #67bc00 !important;
 }
 
 @media screen and (max-width: 1005px) {
